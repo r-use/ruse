@@ -16,6 +16,7 @@
     "url": "git+https://github.com/r-use/ruse.git"
   },
   "scripts": {
+    "build": "pnpm -r run build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",

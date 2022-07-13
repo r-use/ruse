@@ -2,6 +2,8 @@
 import { increaseWithUnit } from "@r-use/shared";
 import { useMediaQuery } from "@r-use/use-media-query";
 
+export * from "./breakpoints";
+
 export type Breakpoints<K extends string = string> = Record<K, number | string>;
 
 export function useBreakpoints<K extends string> (breakpoints: Breakpoints<K>) {
