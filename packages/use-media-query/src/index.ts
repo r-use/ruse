@@ -22,7 +22,7 @@ const getInitialState = (query: string, defaultState?: boolean) => {
   return false;
 };
 
-const useMediaQuery = (query: string, defaultState?: boolean) => {
+export const useMediaQuery = (query: string, defaultState?: boolean) => {
   const [state, setState] = useState(getInitialState(query, defaultState));
 
   useEffect(() => {
@@ -46,5 +46,3 @@ const useMediaQuery = (query: string, defaultState?: boolean) => {
 
   return state;
 };
-
-export default useMediaQuery;

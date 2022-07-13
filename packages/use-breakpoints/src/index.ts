@@ -1,6 +1,6 @@
 // Adapted from https://github.com/vueuse/vueuse/blob/main/packages/core/useBreakpoints/index.ts
 import { increaseWithUnit } from "@r-use/shared";
-import useMediaQuery from "@r-use/use-media-query";
+import { useMediaQuery } from "@r-use/use-media-query";
 
 export type Breakpoints<K extends string = string> = Record<K, number | string>;
 
