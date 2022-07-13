@@ -2,8 +2,15 @@
   "name": "@r-use/use-breakpoints",
   "version": "0.2.0",
   "packageManager": "pnpm@7.5.0",
-  "description": "",
-  "keywords": [],
+  "description": "The next-gen react hooks library. (useBreakpoints module)",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "react-utils",
+    "react-use",
+    "breakpoints",
+    "responsive"
+  ],
   "license": "MIT",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/r-use/ruse#readme",

@@ -3,8 +3,13 @@
   "version": "0.2.0",
   "private": true,
   "packageManager": "pnpm@7.5.0",
-  "description": "",
-  "keywords": [],
+  "description": "The next-gen react hooks library.",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "react-utils",
+    "react-use"
+  ],
   "license": "MIT",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/r-use/ruse#readme",

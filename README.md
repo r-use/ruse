@@ -1,6 +1,8 @@
-# @r-use/ruse
+# R(eact) Use
 
-[![NPM version](https://img.shields.io/npm/v/@r-use/ruse?color=a1b858&label=)](https://www.npmjs.com/package/@r-use/ruse)
+> The next-gen react hooks library.
+
+[![NPM version](https://img.shields.io/npm/v/@r-use/all?color=a1b858&label=)](https://www.npmjs.com/package/@r-use/all)
 
 ## License
 
