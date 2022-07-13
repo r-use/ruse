@@ -1,5 +1,5 @@
 {
-  "name": "@r-use/use-media-query",
+  "name": "@r-use/all",
   "version": "0.2.0",
   "packageManager": "pnpm@7.5.0",
   "description": "",
@@ -45,7 +45,8 @@
     "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "is-platform": "^0.2.0"
+    "@r-use/use-breakpoints": "workspace:*",
+    "@r-use/use-media-query": "workspace:*"
   },
   "devDependencies": {
     "react": "^18.0.0",

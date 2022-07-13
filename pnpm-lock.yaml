@@ -36,6 +36,19 @@ importers:
       vite: 2.9.13
       vitest: 0.17.0
 
+  packages/all:
+    specifiers:
+      '@r-use/use-breakpoints': workspace:*
+      '@r-use/use-media-query': workspace:*
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      '@r-use/use-breakpoints': link:../use-breakpoints
+      '@r-use/use-media-query': link:../use-media-query
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+
   packages/shared:
     specifiers:
       react: ^18.0.0
