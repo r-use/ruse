@@ -1,0 +1,54 @@
+{
+  "name": "@r-use/use-media-query",
+  "version": "0.1.0",
+  "packageManager": "pnpm@7.5.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
+  "homepage": "https://github.com/r-use/ruse#readme",
+  "bugs": {
+    "url": "https://github.com/r-use/ruse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-use/ruse.git"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "rimraf dist && unbuild",
+    "stub": "unbuild --stub"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "is-platform": "^0.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
