@@ -1,5 +1,5 @@
 {
-  "name": "@r-use/use-media-query",
+  "name": "@r-use/use-breakpoints",
   "version": "0.1.0",
   "packageManager": "pnpm@7.5.0",
   "description": "",

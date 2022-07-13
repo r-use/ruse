@@ -1,6 +1,6 @@
 {
   "name": "@r-use/ruse-monorepo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.5.0",
   "private": true,
   "description": "",
@@ -21,7 +21,7 @@
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp package.json packages/**/package.json",
-    "p": "nr build && pnpm publish -r --filter=./packages/*",
+    "p": "nr build && pnpm publish -r --access public --filter=./packages/*",
     "stub": "pnpm -r --parallel run stub",
     "test": "vitest"
   },
