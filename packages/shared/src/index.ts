@@ -5,9 +5,9 @@
  * @example '2px' + 1 = '3px'
  * @example '15em' + (-2) = '13em'
  */
-export function increaseWithUnit(target: number, delta: number): number;
-export function increaseWithUnit(target: string, delta: number): string;
-export function increaseWithUnit(target: string | number, delta: number): string | number;
+export function increaseWithUnit (target: number, delta: number): number;
+export function increaseWithUnit (target: string, delta: number): string;
+export function increaseWithUnit (target: string | number, delta: number): string | number;
 export function increaseWithUnit (target: string | number, delta: number): string | number {
   if (typeof target === "number") { return target + delta; }
   const value = target.match(/^-?[0-9]+\.?[0-9]*/)?.[0] || "";

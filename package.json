@@ -1,8 +1,9 @@
 {
   "name": "@r-use/ruse-monorepo",
-  "version": "0.2.1",
   "private": true,
-  "packageManager": "pnpm@7.5.0",
+  "version": "0.2.1",
+  "packageManager": "pnpm@7.5.1",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "The next-gen react hooks library.",
   "keywords": [
     "react",
@@ -10,16 +11,15 @@
     "react-utils",
     "react-use"
   ],
-  "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/r-use/ruse#readme",
-  "bugs": {
-    "url": "https://github.com/r-use/ruse/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/r-use/ruse.git"
   },
+  "bugs": {
+    "url": "https://github.com/r-use/ruse/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "pnpm -r run build",
     "lint": "eslint .",
@@ -32,19 +32,19 @@
   },
   "devDependencies": {
     "@antfu/ni": "^0.16.3",
-    "@babel/types": "^7.18.7",
-    "@so1ve/eslint-config": "^0.22.0",
-    "@types/node": "^18.0.1",
+    "@babel/types": "^7.18.8",
+    "@so1ve/eslint-config": "^0.26.0",
+    "@types/node": "^18.0.4",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "bumpp": "^8.2.1",
     "eslint": "^8.19.0",
-    "pnpm": "^7.5.0",
+    "pnpm": "^7.5.1",
     "rimraf": "^3.0.2",
-    "tsx": "^3.7.1",
+    "tsx": "^3.8.0",
     "typescript": "^4.7.4",
     "unbuild": "^0.7.4",
-    "vite": "^2.9.13",
-    "vitest": "^0.17.0"
+    "vite": "^3.0.0",
+    "vitest": "^0.18.0"
   }
 }

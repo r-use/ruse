@@ -1,7 +1,8 @@
 {
   "name": "@r-use/use-media-query",
   "version": "0.2.1",
-  "packageManager": "pnpm@7.5.0",
+  "packageManager": "pnpm@7.5.1",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "The next-gen react hooks library. (useMediaQuery module)",
   "keywords": [
     "react",
@@ -10,26 +11,26 @@
     "react-use",
     "media-query"
   ],
-  "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/r-use/ruse#readme",
-  "bugs": {
-    "url": "https://github.com/r-use/ruse/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/r-use/ruse.git"
   },
+  "bugs": {
+    "url": "https://github.com/r-use/ruse/issues"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
@@ -41,7 +42,6 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub"
