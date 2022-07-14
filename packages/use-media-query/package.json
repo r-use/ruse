@@ -1,6 +1,6 @@
 {
   "name": "@r-use/use-media-query",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "packageManager": "pnpm@7.5.0",
   "description": "The next-gen react hooks library. (useMediaQuery module)",
   "keywords": [
