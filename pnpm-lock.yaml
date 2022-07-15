@@ -38,11 +38,13 @@ importers:
 
   packages/all:
     specifiers:
+      '@r-use/use-before-unload': workspace:*
       '@r-use/use-breakpoints': workspace:*
       '@r-use/use-media-query': workspace:*
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
+      '@r-use/use-before-unload': link:../use-before-unload
       '@r-use/use-breakpoints': link:../use-breakpoints
       '@r-use/use-media-query': link:../use-media-query
     devDependencies:
@@ -53,6 +55,17 @@ importers:
     specifiers:
       react: ^18.0.0
       react-dom: ^18.0.0
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+
+  packages/use-before-unload:
+    specifiers:
+      '@r-use/shared': workspace:*
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      '@r-use/shared': link:../shared
     devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
