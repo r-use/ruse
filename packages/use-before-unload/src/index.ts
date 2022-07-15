@@ -32,5 +32,3 @@ export const useBeforeUnload = (enabled: boolean | (() => boolean) = true, messa
     return () => off(window, "beforeunload", handler);
   }, [enabled, handler]);
 };
-
-export default useBeforeUnload;
